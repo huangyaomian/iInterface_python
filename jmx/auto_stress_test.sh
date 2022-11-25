@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 
 # 压测脚本模板中设定的压测时间应为20秒
 export jmx_template="iInterface"
