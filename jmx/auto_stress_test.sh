@@ -33,7 +33,7 @@ do
     fi
 
     # JMeter 静默压测
-    echo ${JMETER_HOME}/bin/jmeter111111111111111111111111111111111111111
+    echo ${JMETER_HOME}/bin/jmeter22222222
     /usr/local/src/jmeter/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename}
 
     # 生成Web压测报告
