@@ -34,10 +34,10 @@ do
 
     # JMeter 静默压测
     echo ${jmeter_path}/bin/jmeter111111111111111111111111111111111111111
-    ${jmeter_path}/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename}
+    /usr/local/src/jmeter/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename}
 
     # 生成Web压测报告
-    ${jmeter_path}/bin/jmeter -g ${jtl_filename} -e -o ${web_report_path_name}
+    /usr/local/src/jmeter/bin/jmeter -g ${jtl_filename} -e -o ${web_report_path_name}
 
     rm -f ${jmx_filename} ${jtl_filename}
 done
